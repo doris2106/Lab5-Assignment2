@@ -6,7 +6,6 @@ Case B requirements.
 
 - **App URL**: http://3.111.58.245:8081/ (EC2 has no Elastic IP — this changes on every
   instance restart; check the EC2 console for the current address)
-- **AWS account**: calista-labs (386347568553), region ap-south-1 (Mumbai)
 - **EC2 instance**: `matomo-lab4` (`i-077933894a1f47c75`) — same instance as Lab 4/Assignment 1
 - **DynamoDB table**: `matomo-site-notes`, on-demand capacity
 - **IAM role**: `matomo-dynamodb-role`, attached directly to the EC2 instance
